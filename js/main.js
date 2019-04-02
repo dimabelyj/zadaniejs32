@@ -1,13 +1,16 @@
 let num1 = 2;
 let num2 = 5;
+let x = num1;
+let y = num2;
 
-function por(num1, num2) {
-    if (num1 > num2) {
-        console.log(num1);
-        return (num1, num2);
-    } else if (num1 < num2) {
-        console.log(num2);
-        return (num1, num2);
+function por(x, y) {
+    if (x > y) {
+        console.log(x);
+        return (x, y);
+    } else if (x < y) {
+        console.log(y);
+        return (x, y);
     }
 }
-por(num1, num2);
+//console.log(por(num1, num2));
+por(x, y);
